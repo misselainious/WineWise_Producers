@@ -64,6 +64,12 @@ h4{
     background-color: #616E69;
     border: 1px solid black;
 }
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #456E69 !important;
+    border: 1px solid black !important;
+ }
 #dataTableHead{
     background-color: #71575A;
     color: white;
