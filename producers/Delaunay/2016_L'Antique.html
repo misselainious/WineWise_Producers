@@ -1,357 +1,329 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>WineWise Producer Data</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="../../css/style.css" />
-   
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>WineWise Producer Data</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="../../css/style.css" />
+
 </head>
+
 <body>
-    
-<!-- NavBar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">
-                        <img src="../../images/logo.png" width="150" height="60" alt="">
-                      </a>
-            <a class="navbar-brand" href="../../index.html">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                        <a class="nav-link" href="http://www.winewise.biz" target="_blank">Our Website</a>
-                </li>
-               <!-- Dropdown for  -->
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Producers
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./WineWise_Producers/producers/Delaunay.html">Joel Delaunay</a>
-                    <a class="dropdown-item" href="./WineWise_Producers/producers/Bel_Air.html">Dom. Bel Air</a>
-                    <a class="dropdown-item" href="./WineWise_Producers/producers/Alain_Geoffroy.html">Alain Geoffroy</a>
-                    <a class="dropdown-item" href="./WineWise_Producers/producers/Aux_Moines.html">Dom. Aux Moines</a>
-                    <a class="dropdown-item" href="./WineWise_Producers/producers/Schloss_Ortenberg.html">Schloss Ortenberg</a>
-                    <a class="dropdown-item" href="./WineWise_Producers/producers/Coutelin-Merville.html">Coutelin-Merville</a>
-                    <a class="dropdown-item" href="./WineWise_Producers/producers/Carbonneau.html">Carbonneau</a>
-                    <a class="dropdown-item" href="./WineWise_Producers/producers/Pichon.html">Pichon</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">All Producers N/A</a>
-                  </div>
-                </li>
-              </ul>
-            <!-- Search Bar -->
-              <!-- <form class="form-inline my-2 my-lg-0">
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="../../images/logo.png" width="150" height="60" alt="">
+    </a>
+    <a class="navbar-brand" href="../../index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="http://www.winewise.biz" target="_blank">Our Website</a>
+        </li>
+        <!-- Dropdown for  -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Producers
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./WineWise_Producers/producers/Delaunay.html">Joel Delaunay</a>
+            <a class="dropdown-item" href="./WineWise_Producers/producers/Bel_Air.html">Dom. Bel Air</a>
+            <a class="dropdown-item" href="./WineWise_Producers/producers/Alain_Geoffroy.html">Alain Geoffroy</a>
+            <a class="dropdown-item" href="./WineWise_Producers/producers/Aux_Moines.html">Dom. Aux Moines</a>
+            <a class="dropdown-item" href="./WineWise_Producers/producers/Schloss_Ortenberg.html">Schloss Ortenberg</a>
+            <a class="dropdown-item" href="./WineWise_Producers/producers/Coutelin-Merville.html">Coutelin-Merville</a>
+            <a class="dropdown-item" href="./WineWise_Producers/producers/Carbonneau.html">Carbonneau</a>
+            <a class="dropdown-item" href="./WineWise_Producers/producers/Pichon.html">Pichon</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">All Producers N/A</a>
+          </div>
+        </li>
+      </ul>
+      <!-- Search Bar -->
+      <!-- <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
               </form> -->
+    </div>
+  </nav>
+  <!-- /NavBar -->
+  <!-- Container -->
+  <div class="container py-3">
+
+    <!-- <div class="row"> -->
+
+    <!-- </div> -->
+    <div class="row">
+      <h4 class="col-sm-12 text-center">Wine Specifics</h4>
+
+    </div>
+    <div class="row">
+      <div class="card col-12 col-lg-3 text-center p-0 m-0" style="width: 18rem;">
+        <img class="card-img-top mx-auto" src="../../images/Delaunay_L'antique.png" alt="Card image cap">
+        <div class="card-body p-1">
+          <h5 class="card-title">2016</h5>
+          <h5 class="card-title">Joel Delaunay</h5>
+          <h5 class="card-title">L'Antique des Cabotières (Touraine)</h5>
+          <p class="card-text py-3">A well-balanced red that is lush with dark red fruit on the palate.</p>
+          <table class="table col-sm-12">
+            <thead>
+              <tr id="specsHead">
+                <th colspan="2" scope="col text-center">General Information</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Producer</td>
+                <td>Joel Delaunay</td>
+              </tr>
+              <tr>
+                <td>Vintage</td>
+                <td>2016</td>
+              </tr>
+              <tr>
+                <td>Case Pack</td>
+                <td>12</td>
+              </tr>
+              <tr>
+                <td>Bottle Size</td>
+                <td>750 mL</td>
+              </tr>
+              <tr>
+                <td>Color</td>
+                <td>Red</td>
+              </tr>
+              <tr>
+                <td>Country</td>
+                <td>France</td>
+              </tr>
+              <tr>
+                <td>Region</td>
+                <td>Loire</td>
+              </tr>
+              <tr>
+                <td>Subregion</td>
+                <td>Touraine, Tauraine Chenonceaux</td>
+              </tr>
+              <tr>
+                <td>City where the wine is made</td>
+                <td>Pouillé</td>
+              </tr>
+
+            </tbody>
+          </table>
+
+          <a href="../Delaunay/Delaunay.html" class="btn btn-primary m-3">Back to Delaunay</a>
+        </div>
+      </div>
+
+      <table class="table col-sm-9">
+        <thead>
+          <tr class="col-sm-12" id="dataTableHead">
+            <th colspan="2" class="col-12 text-center">Wine Data</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alcohol by volume</td>
+            <td>12.58%</td>
+          </tr>
+          <tr>
+            <td>Residual Sugar</td>
+            <td>3.31 g/L</td>
+          </tr>
+          <tr>
+            <td>Closure</td>
+            <td>Natural Cork</td>
+          </tr>
+          <tr>
+            <td>Annual Production (this wine only)</td>
+            <td>500 cases</td>
+          </tr>
+          <tr>
+            <td>Varietals</td>
+            <td>50% Cabernet Franc, 50% Malbec</td>
+          </tr>
+          <tr>
+            <td>Maceration Notes</td>
+            <td>Maceration in stainless steal tank 8 days.</td>
+          </tr>
+          <tr>
+            <td>Pumpover/Punchdown?</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>De-stemming</td>
+            <td>Whole Cluster</td>
+          </tr>
+          <tr>
+            <td>Fermentation Vessel</td>
+            <td>Stainless Steel</td>
+          </tr>
+          <tr>
+            <td>Fermentation Duration</td>
+            <td>20 days at 25°C with micro-oxygenation.</td>
+          </tr>
+          <tr>
+            <td>Aging Method</td>
+            <td>100% Stainless Steel</td>
+          </tr>
+          <tr>
+            <td>Aging Duration</td>
+            <td>4 months</td>
+          </tr>
+          <tr>
+            <td>Filtered?</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>Fining Agents</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td>Yeast</td>
+            <td>Cultured</td>
+          </tr>
+          <tr>
+            <td>Lees Contact/Stirring</td>
+            <td>On fine lees</td>
+          </tr>
+          <tr>
+            <td>Malolactic</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Added Sulfur</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Soil Types</td>
+            <td>Clay, Silex</td>
+          </tr>
+          <tr>
+            <td>Vineyard Elevation</td>
+            <td>138 meters</td>
+          </tr>
+          <tr>
+            <td>Vineyard Aspect</td>
+            <td>North</td>
+          </tr>
+          <tr>
+            <td>Average Vine Age</td>
+            <td>35 years</td>
+          </tr>
+          <tr>
+            <td>Vine Yields</td>
+            <td>45 hl/ha</td>
+          </tr>
+          <tr>
+            <td>Farming Practices</td>
+            <td>Sustainable</td>
+          </tr>
+          <tr>
+            <td>Vine Training Notes</td>
+            <td>Guyot Simple</td>
+          </tr>
+          <tr>
+            <td>Grape Picking</td>
+            <td>Machine</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <div class="row">
+      <div class="card">
+        <div class="card-header producerNotes">
+          Notes from the producer:
+        </div>
+        <div class="card-body">
+          Intense hue with purple-blue highlights. Profound nose showing crisp cherry and plum aromas. Full-bodied
+          palate with soft tannins leaving a sensation of suppleness. Fruit makes way for pronounced peppery notes on
+          the finish. A stellar wine from the Loire.
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <!-- /Container -->
+
+
+  <footer>
+    <div class="row col-12 card text-center">
+      <div class="card-header">
+        Other Joel Delaunay Wines
+      </div>
+      <div class="card-body">
+        <div class="row">
+
+          <div class="card col-2" style="width: 18rem;">
+            <img class="card-img-top mx-auto" src="../../images/Delaunay_chenonceaux_blanc_le_voute.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">2016</h5>
+              <h5 class="card-title">Joel Delaunay</h5>
+              <h5 class="card-title">La Voute Sauvignon Blanc (Chenonceaux)</h5>
+              <a href="../Delaunay/2016_La_Voute.html" class="btn btn-primary">Explore this Wine</a>
             </div>
-          </nav>
-<!-- /NavBar -->
-          <!-- Container -->
-          <div class="container py-3">
-
-            <!-- <div class="row"> -->
-              
-              <!-- </div> -->
-              <div class = "row">
-              <h4 class= "col-sm-12 text-center" >Wine Specifics</h4>
-              
-            </div>
-              <div class="row">
-                  <div class="card col-12 col-lg-3 text-center p-0 m-0" style="width: 18rem;">
-                      <img class="card-img-top mx-auto" src="../../images/Delaunay_L'antique.png" alt="Card image cap">
-                      <div class="card-body p-1">
-                        <h5 class="card-title">2016 L'Antique des Cabotières (Touraine)</h5>
-                        <p class="card-text py-3">A well-balanced red that is lush with dark red fruit on the palate.</p>
-                        <table class="table col-sm-12">
-                            <thead>
-                              <tr id= "specsHead">
-                                <th colspan="2" scope="col text-center">Wine Data</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Vintage</td>
-                                    <td>2016</td>
-                                  </tr>
-                              <tr>
-                                <td>Case size</td>
-                                <td>12/750 mL</td>
-                              </tr>
-                              <tr>
-                                <td >Country</td>
-                                <td>France</td>
-                              </tr>
-                              <tr>
-                                <td>Region</td>
-                                <td>Loire</td>
-                              </tr>
-                              <tr>
-                                  <td>Subregion</td>
-                                  <td>Touraine, Tauraine Chenonceaux</td>
-                                </tr>
-                                <tr>
-                                  <td >City where the wine is made</td>
-                                  <td>Pouillé</td>
-                                </tr>
-         
-                            </tbody>
-                          </table>
-                        
-                        <a href="../Delaunay/Delaunay.html" class="btn btn-primary m-3">Back to Delaunay</a>
-                      </div>
-                    </div>
-
-                    <table class="table col-sm-9">
-                        <thead>
-                          <tr class = "col-sm-12" id= "dataTableHead">
-                            <th colspan="2" class = "col-12 text-center">Wine Data</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>Alcohol by volume</td>
-                            <td>12.58%</td>
-                          </tr>
-                          <tr>
-                            <td >Residual Sugar</td>
-                            <td>3.31 g/L</td>
-                          </tr>
-                          <tr>
-                            <td>Closure</td>
-                            <td>Natural Cork</td>
-                          </tr>
-                          <tr>
-                              <td>Annual Production (this wine only)</td>
-                              <td>500 cases</td>
-                            </tr>
-                            <tr>
-                              <td >Varietals</td>
-                              <td>50% Cabernet Franc, 50% Malbec</td>
-                            </tr>
-                            <tr>
-                              <td>Maceration Notes</td>
-                              <td>Maceration in stainless steal tank 8 days.</td>
-                            </tr>
-                            <tr>
-                                <td>Pumpover/Punchdown?</td>
-                                <td>No</td>
-                              </tr>
-                              <tr>
-                                <td >De-stemming</td>
-                                <td>Whole Cluster</td>
-                              </tr>
-                              <tr>
-                                <td>Fermentation Vessel</td>
-                                <td>Stainless Steel</td>
-                              </tr>
-                              <tr>
-                                  <td>Fermentation Duration</td>
-                                  <td>20 days at 25°C with micro-oxygenation.</td>
-                                </tr>
-                                <tr>
-                                  <td >Aging Method</td>
-                                  <td>100% Stainless Steel</td>
-                                </tr>
-                                <tr>
-                                  <td>Aging Duration</td>
-                                  <td>4 months</td>
-                                </tr>
-                                <tr>
-                                    <td>Filtered?</td>
-                                    <td>No</td>
-                                  </tr>
-                                  <tr>
-                                    <td >Fining Agents</td>
-                                    <td>None</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Yeast</td>
-                                    <td>Cultured</td>
-                                  </tr>
-                                  <tr>
-                                      <td>Lees Contact/Stirring</td>
-                                      <td>On fine lees</td>
-                                    </tr>
-                                    <tr>
-                                      <td >Malolactic</td>
-                                      <td>Yes</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Added Sulfur</td>
-                                      <td>Yes</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Soil Types</td>
-                                        <td>Clay, Silex</td>
-                                      </tr>
-                                      <tr>
-                                        <td>Vineyard Elevation</td>
-                                        <td>138 meters</td>
-                                      </tr>
-                                      <tr>
-                                        <td>Vineyard Aspect</td>
-                                        <td>North</td>
-                                      </tr>
-                                      <tr>
-                                          <td>Average Vine Age</td>
-                                          <td>35 years</td>
-                                        </tr>
-                                        <tr>
-                                          <td >Vine Yields</td>
-                                          <td>45 hl/ha</td>
-                                        </tr>
-                                        <tr>
-                                          <td>Farming Practices</td>
-                                          <td>Sustainable</td>
-                                        </tr>
-                                        <tr>
-                                            <td >Vine Training Notes</td>
-                                            <td>Guyot Simple</td>
-                                          </tr>
-                                          <tr>
-                                            <td>Grape Picking</td>
-                                            <td>Machine</td>
-                                          </tr>
-                        </tbody>
-                      </table>
-
-                      
-                    <!-- <dl class = "col-sm-9 p-0">
-                  <dt>Alcohol by volume</dt>
-                  <dd>12.58%</dd>
-                
-                  <dt>Acidity</dt>
-                  <dd>3.31 g/L</dd>
-                
-                  <dt class="col-sm-3">Residual Sugar</dt>
-                  <dd class="col-sm-6">1.2 g/L</dd>
-
-                  <dt class="col-sm-3">Closure</dt>
-                  <dd class="col-sm-6">Natural Cork</dd>
-                
-                  <dt class="col-sm-3">Annual Production (this wine only)</dt>
-                  <dd class="col-sm-6">500 cases</dd>
-                
-                  <dt class="col-sm-3">Varietals</dt>
-                  <dd class="col-sm-6">50% Cabernet Franc, 50% Malbec</dd>
-                
-                  <dt class="col-sm-3">Maceration Notes</dt>
-                  <dd class="col-sm-6">Maceration in stainless steal tank 8 days.</dd>
-                
-                  <dt class="col-sm-3">Pumpover/Punchdown?</dt>
-                  <dd class="col-sm-6">No</dd>
-                
-                  <dt class="col-sm-3">De-stemming %</dt>
-                  <dd class="col-sm-6">Whole Cluster</dd>
-
-                  <dt class="col-sm-3">Fermentation Vessel</dt>
-                  <dd class="col-sm-6">Stainless Steel, 100%</dd>
-                
-                  <dt class="col-sm-3">Fermentation Duration</dt>
-                  <dd class="col-sm-6">20 days at 25°C with micro-oxygenation.</dd>
-                
-                  <dt class="col-sm-3">Aging Method</dt>
-                  <dd class="col-sm-6">Stainless Steel, 100%</dd>
-
-                  <dt class="col-sm-3">Aging Duration</dt>
-                  <dd class="col-sm-6">4 months</dd>
-                
-                  <dt class="col-sm-3">Filtered?</dt>
-                  <dd class="col-sm-6">No</dd>
-                
-                  <dt class="col-sm-3">Fining agents</dt>
-                  <dd class="col-sm-6">None</dd>
-
-                  <dt class="col-sm-3">Yeast</dt>
-                  <dd class="col-sm-6">Cultured</dd>
-                
-                  <dt class="col-sm-3">Lees Contact/Stirring</dt>
-                  <dd class="col-sm-6">On fine lees</dd>
-                
-                  <dt class="col-sm-3">Malolactic</dt>
-                  <dd class="col-sm-6">Yes</dd>
-                
-                  <dt class="col-sm-3">Added Sulfur</dt>
-                  <dd class="col-sm-6">Yes</dd>
-                
-                  <dt class="col-sm-3">Soil Type</dt>
-                  <dd class="col-sm-6">Clay and Silex</dd>
-                
-                  <dt class="col-sm-3">Elevation</dt>
-                  <dd class="col-sm-6">138 meters</dd>
-
-                  <dt class="col-sm-3">Vineyard Aspect</dt>
-                  <dd class="col-sm-6">North</dd>
-                
-                  <dt class="col-sm-3">Vine age (average)</dt>
-                  <dd class="col-sm-6">35 years</dd>
-                
-                  <dt class="col-sm-3">Vine Yields (hl/ha)</dt>
-                  <dd class="col-sm-6">45</dd>
-
-                  <dt class="col-sm-3">Farming Practices</dt>
-                  <dd class="col-sm-6">Sustainable</dd>
-                
-                  <dt class="col-sm-3">Vine Training Notes</dt>
-                  <dd class="col-sm-6">Guyot simple</dd>
-                
-                  <dt class="col-sm-3">Grape Picking</dt>
-                  <dd class="col-sm-6">Machine</dd>
-               
-                </dl> -->
-              </div>
-
-
-                <div class= "row">
-                <div class="card">
-                    <div class="card-header producerNotes">
-                        Notes from the producer:
-                      </div>
-                  <div class="card-body">
-                      Intense hue with purple-blue highlights. Profound nose showing crisp cherry and plum aromas. Full-bodied palate with soft tannins leaving a sensation of suppleness. Fruit makes way for pronounced peppery notes on the finish. A stellar wine from the Loire.
-                  </div>
-                </div>
-              </div>
-
-
           </div>
-          <!-- /Container -->
 
-          
-<footer>
-          <div class="row col-12 card text-center">
-              <div class="card-header">
-                <ul class="nav nav-tabs card-header-tabs">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Active</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+          <div class="card col-2" style="width: 18rem;">
+            <img class="card-img-top mx-auto" src="../../images/Delaunay_SB_Ballon_is.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">2017</h5>
+              <h5 class="card-title">Joel Delaunay</h5>
+              <h5 class="card-title">Sauvignon Blanc 'Le Grand Ballon'</h5>
+              <a href="../Delaunay/Grand_Ballon_SB.html" class="btn btn-primary">Explore this Wine</a>
             </div>
-          </footer>
-          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-          
-    <script src="../../javascript/app.js"></script>
+          </div>
+          <div class="card col-2" style="width: 18rem;">
+            <img class="card-img-top mx-auto" src="../../images/Joel-Delaunay-Loire-blanc.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">2017</h5>
+              <h5 class="card-title">Joel Delaunay</h5>
+              <h5 class="card-title">Touraine Sauvignon</h5>
+              <a href="../Delaunay/Touraine_SB.html" class="btn btn-primary">Explore this Wine</a>
+            </div>
+          </div>
+
+          <div class="card col-2" style="width: 18rem;">
+            <img class="card-img-top mx-auto" src="../../images/Delaunay_Rose'.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">2017</h5>
+              <h5 class="card-title">Joel Delaunay</h5>
+              <h5 class="card-title">Rosé 'Le Grand Ballon'</h5>
+              <a href="../Delaunay/Grand_Ballon_Rose.html" class="btn btn-primary">Explore this Wine</a>
+            </div>
+          </div>
+
+        </div>
+        <!-- <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <script src="../../javascript/app.js"></script>
 </body>
+
 </html>

@@ -15,6 +15,7 @@
 }
 .card-title{
     font-weight: 800;
+    margin: 0px;
 }
 .card-img-top{
     height: 200px;
