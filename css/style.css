@@ -10,6 +10,10 @@
 .generalInfo{
     margin: 0;
 }
+#homeGroup{
+    background-color: #22333D;
+    color: white;
+}
 #accordion{
     margin: 30px 0px;
 }
