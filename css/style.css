@@ -13,6 +13,23 @@
 #accordion{
     margin: 30px 0px;
 }
+#accordion button{
+    background-color: #22333D;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+}
+#accordion button:hover{
+    background-color: rgba(34, 51, 61, 0.671);
+    border: 1px solid black;
+    text-decoration: none;
+    color: white;
+}
+#WWProducer{
+    background: #BFD9CF;
+    color: #22333D;
+    font-weight: 700;
+}
 .card-title{
     font-weight: 800;
     margin: 0px;
