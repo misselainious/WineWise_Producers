@@ -1,10 +1,14 @@
+body{
+  background-color: #f1f1f1;
+}
+
 .navbar{
     background-color: 71575A;
     color: white;
 }
 .card {
-    margin: 0 auto; 
-    margin-bottom: 20px; 
+    margin: 0 auto;
+    margin-bottom: 20px;
     margin-top: 20px;
 }
 .generalInfo{
@@ -91,4 +95,55 @@ tr:nth-child(2n+1) {
 .table th, .table td{
     padding: 4px;
     font-size: 15px;
+}
+
+
+/* About Us*/
+.aboutHeader{
+  height: 200px;
+  background-image: url('https://images.unsplash.com/photo-1491924778227-f225b115dd5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  position: relative;
+  opacity: 0.8;
+}
+.teamHeader{
+  font-size:48px;
+  color: #a199a3;
+  font-family: 'Cinzel', serif;
+  padding-right: 8%;
+  padding-top: 10px;
+  -webkit-text-stroke-width: 1px;
+
+}
+.history{
+  font-size: 16px;
+    line-height: 1.3em;
+}
+.name{
+  color: #a18f7a;
+  font-weight: bold;
+  font-size: 24px;
+}
+.title{
+  color: #a9a9a9;
+  font-size:18px;
+}
+.headshot{
+  width: auto;
+  height: 300px;
+  object-fit: contain;
+  padding: 10px;
+}
+
+/* FOOTER */
+.footer{
+  background: #a9a9a9;
+}
+.address{
+  font-size: 16px;
+}
+.orderEmail, .phoneFax {
+  font-size: 14px;
 }
